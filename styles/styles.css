@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  background-image: url("../assets/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-img {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("../assets/computer.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  flex: 1;
+}
+.container-form {
+  width: 50vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.card {
+  width: 60%;
+  padding: 30px 35px;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #052953;
+}
+
+
+.card-form input{
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #052953;
+  color: #FFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  box-sizing: border-box;
+
+}
+
+button{
+  padding: 10px;
+  margin: 25px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #052953;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+  color: #052953;
+}
+
+input::placeholder{
+  color: #FFFF;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container-img {
+    display: none;
+  }
+  .container-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    background-image: url("../assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card {
+    width: 60%;
+    padding: 30px 35px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .card h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
