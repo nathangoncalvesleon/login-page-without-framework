@@ -1,5 +1,5 @@
 # login-page-without-framework
-Página de Login feita com HTML5 e CSS, totalmente responsivo para qualquer dispositivo.
+Página de Login feita com HTML5 e CSS3, totalmente responsivo para qualquer dispositivo.
 
 
 Deploy: https://login-page-without-framework-3o49yytcv-nathangoncalvesleon.vercel.app/
